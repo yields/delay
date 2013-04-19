@@ -1,0 +1,13 @@
+{
+  "name": "delay",
+  "repo": "yields/delay",
+  "description": "delay the given `fn`.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}

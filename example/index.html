@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <title>delay</title>
+    <script src='../build/build.js'></script>
+  </head>
+  <body>
+    <input type='text' placeholder='search..'>
+
+    <script>
+      var el = document.querySelector('input');
+      var delay = require('delay');
+      el.onkeyup = delay(300, function(e){
+        console.log(e.target.value);
+      });
+    </script>
+  </body>
+</html>
